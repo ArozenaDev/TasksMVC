@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\entities\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\entities\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Migrations\\20241004110822_UserTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TasksMVC\\Migrations\\20241004110822_UserTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\services\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\views\\users\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\views\\users\\userslist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\models\\userslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\models\\userslistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|c:\\users\\jose.arocena\\source\\repos\\tasksmvc\\tasksmvc\\models\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22748B1-E786-44E6-B8D4-AE10EA629D5E}|TasksMVC\\TasksMVC.csproj|solutionrelative:tasksmvc\\models\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241004110822_UserTasks.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Migrations\\20241004110822_UserTasks.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Migrations\\20241004110822_UserTasks.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Migrations\\20241004110822_UserTasks.cs",
+              "RelativeToolTip": "TasksMVC\\Migrations\\20241004110822_UserTasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:08:23.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Entities\\Tarea.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Entities\\Tarea.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Entities\\Tarea.cs",
+              "RelativeToolTip": "TasksMVC\\Entities\\Tarea.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T11:05:27.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CONSTANTS.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Services\\CONSTANTS.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Services\\CONSTANTS.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Services\\CONSTANTS.cs",
+              "RelativeToolTip": "TasksMVC\\Services\\CONSTANTS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T10:51:55.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "TasksMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "TasksMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAB8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T09:47:18.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TasksMVC\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAALQAAAAAAAAAAAAlwMoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T09:06:03.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersList.cshtml",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Views\\Users\\UsersList.cshtml",
+              "RelativeDocumentMoniker": "TasksMVC\\Views\\Users\\UsersList.cshtml",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Views\\Users\\UsersList.cshtml",
+              "RelativeToolTip": "TasksMVC\\Views\\Users\\UsersList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-03T08:59:40.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersListVM.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Models\\UsersListVM.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Models\\UsersListVM.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Models\\UsersListVM.cs",
+              "RelativeToolTip": "TasksMVC\\Models\\UsersListVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:58:11.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Models\\UserVM.cs",
+              "RelativeDocumentMoniker": "TasksMVC\\Models\\UserVM.cs",
+              "ToolTip": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\Models\\UserVM.cs",
+              "RelativeToolTip": "TasksMVC\\Models\\UserVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-03T08:57:23.037Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
