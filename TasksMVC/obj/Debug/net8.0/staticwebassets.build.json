@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RTEtTnK+UJ+q/1nBEtlp8K0czxjsuEEipvwJZLBrsTs=",
+  "Hash": "G7nnVMFbKVkahJuh0iUEBHPOUhfcldxqKDKJeWTxykA=",
   "Source": "TasksMVC",
   "BasePath": "_content/TasksMVC",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\wwwroot\\js\\utils.js",
+      "SourceId": "TasksMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\wwwroot\\",
+      "BasePath": "_content/TasksMVC",
+      "RelativePath": "js/utils.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\utils.js"
     },
     {
       "Identity": "C:\\Users\\jose.arocena\\source\\repos\\TasksMVC\\TasksMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

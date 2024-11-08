@@ -1,8 +1,76 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using Microsoft.AspNetCore.Mvc.Localization;
+@inject IViewLocalizer localizer
+
+@{
+	ViewData["Title"] = "Listado de tareas";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+	<h1 class="display-4">@localizer["Mis tareas"]</h1>
+	<button type="button" class="btn btn-primary mb-3" onclick="addNewTask()">
+		@localizer["Agregar nueva tarea"]
+		</button>
 </div>
+
+<div id="tasks-list-container" class="text-center">
+	<div class="text-start" data-bind="foreach: tasks">
+		<div name="task" class="border mb-2 p-2" style="cursor: pointer">
+			<div data-bind="text: title, hidden: isNew" class="fw-bold">
+			</div>
+
+			<input type="text" name="task-title" autocomplete="off" data-bind="value: title, visible: isNew, event: {focusout: handdleFocusOut}" />
+
+		</div>
+	</div>
+
+	<div data-bind="visible: loading" class="spinner-border">
+		<span class="visually-hidden">Cargando...</span>
+	</div>
+
+	<div data-bind="visible: noTasks">
+		No existen tareas para mostrar
+	</div>
+
+</div>
+
+
+
+@section Scripts {
+
+	<script src="~/js/tareas.js" asp-append-version="true"></script>
+
+	<script>
+
+		const urlTasks = "api/tasks";
+
+		function tasksListVMFn() {
+			var self = this;
+			self.tasks = ko.observableArray([]);
+			self.loading = ko.observable(true);
+
+			self.noTasks = ko.pureComputed(function(){
+				if (self.loading()){
+					return false;
+				}
+
+				return self.tasks().length == 0;
+			})
+		}
+
+		function listedElementTaskVM({ id, name }) {
+			var self = this;
+			self.id = ko.observable(id);
+			self.title = ko.observable(name);
+			self.isNew = ko.pureComputed(function () {
+				return self.id() == 0;
+			})
+		}
+
+		const tasksListVM = new tasksListVMFn();
+
+		getTasks();
+
+		ko.applyBindings(tasksListVM, document.getElementById('tasks-list-container'));
+	</script>
+}
