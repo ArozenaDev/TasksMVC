@@ -48,6 +48,7 @@ builder.Services.PostConfigure<CookieAuthenticationOptions>(IdentityConstants.Ap
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 
 builder.Services.AddTransient<IUserService, UserService>();
+builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
 

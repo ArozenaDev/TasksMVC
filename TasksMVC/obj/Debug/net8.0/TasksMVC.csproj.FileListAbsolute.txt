@@ -8,6 +8,8 @@ C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\TasksMVC.d
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\TasksMVC.pdb
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\en\TasksMVC.resources.dll
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\es\TasksMVC.resources.dll
+C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\jose.arocena\source\repos\TasksMVC\TasksMVC\bin\Debug\net8.0\Humanizer.dll

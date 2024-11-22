@@ -14,12 +14,16 @@
 </div>
 
 <div id="tasks-list-container" class="text-center">
-	<div class="text-start" data-bind="foreach: tasks">
-		<div name="task" class="border mb-2 p-2" style="cursor: pointer">
+	<div id="reordenable" class="text-start" data-bind="foreach: tasks">
+		<div name="task" class="border mb-2 p-2" style="cursor: pointer"
+		data-bind="click: handdleClickTask"
+		>
 			<div data-bind="text: title, hidden: isNew" class="fw-bold">
 			</div>
 
-			<input type="text" name="task-title" autocomplete="off" data-bind="value: title, visible: isNew, event: {focusout: handdleFocusOut}" />
+			<input type="text" name="task-title" autocomplete="off" data-bind="value: title, visible: isNew, 
+					attr: {'data-id': id}, 
+					event: {focusout: handdleFocusOut}" />
 
 		</div>
 	</div>
@@ -34,15 +38,19 @@
 
 </div>
 
+<partial name="_EditTaskModal" />
 
 
 @section Scripts {
 
 	<script src="~/js/tareas.js" asp-append-version="true"></script>
+	<script src="~/js/utils.js" asp-append-version="true"></script>
 
 	<script>
 
 		const urlTasks = "api/tasks";
+		const editTaskModal = document.getElementById('edit-task-modal');
+		const editTaskModalBootstrap = new bootstrap.Modal(editTaskModal);
 
 		function tasksListVMFn() {
 			var self = this;
@@ -67,10 +75,17 @@
 			})
 		}
 
+		const EditTaskVM = {
+			id: 0,
+			title: ko.observable(''),
+			description: ko.observable('')
+		}
+
 		const tasksListVM = new tasksListVMFn();
 
 		getTasks();
 
 		ko.applyBindings(tasksListVM, document.getElementById('tasks-list-container'));
+		ko.applyBindings(EditTaskVM, document.getElementById('edit-task-modal'));
 	</script>
 }
